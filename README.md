@@ -1,8 +1,8 @@
 # Simple DNS Server
 
-This is a simple way to get a dns server up and running using [docker compose](https://docs.docker.com/compose/) and [Coredns](https://coredns.io). Feel free to fork this to you hearts desire, i'm putting this up as an example for my future self and other folks wanting to use core dns on docker.
+This is a simple way to get a dns server up and running using [docker compose](https://docs.docker.com/compose/) and [Coredns](https://coredns.io). Feel free to fork this to you hearts desire, i'm putting this up as an example for my future self and other folks wanting to use core dns on docker. Right now it just forwards dns entries to google dns servers
 
-You can add to the hosts file to specficy dns entries, this is an easy way to specify domain names for things in your local network. More details [here](https://coredns.io/plugins/hosts/). You can get way more complicated by making use of the various [plugins](https://coredns.io/plugins/) coredns offers. Want to learn more about coredns overall, go [here](https://coredns.io/manual/toc/#configuration)
+You can add a new block to the corefile for a specfic domain and then add to the hosts file to specficy dns entries, this is an easy way to specify domain names for things in your local network. More details [here](https://coredns.io/plugins/hosts/). You can get way more complicated by making use of the various [plugins](https://coredns.io/plugins/) coredns offers. Want to learn more about coredns overall, go [here](https://coredns.io/manual/toc/#configuration)
 
 
 ## Running the dns server
